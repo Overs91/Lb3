@@ -1,7 +1,7 @@
       <style>
       
       header  { 
-
+        
       }
 
       .header1 {
@@ -10,6 +10,7 @@
         color: white;
         width: 100%;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding-left: 20px;
       }
     
       
@@ -22,19 +23,20 @@
             color: white;
             cursor: pointer;
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        }
+            width: 101.7%;
+          }
         
 
        .box {
             border: 2px dashed #000;           
-            width: 100px;
+            width: 120px;
             height: 30px;
-            padding-top: 10px;           
+            padding-top: 10px; 
+            
           
 
       }
 
-      
       .mid {
 
         margin-left: 20px;
@@ -46,14 +48,16 @@
      
 
       article {
-        border: 2px solid #ccc;
-        padding: 10px;
+        
+        display: flex;
         margin-bottom: 10px;
-        background-color: rgb(216, 152, 55);
         width: 95%;
         margin-left: 20px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        border-color: #000;
+        border: 2px solid black;
+        background-color: orange;
+        margin-bottom: 20px;
+        height: auto;
       
             
       
@@ -62,29 +66,62 @@
       .article01 {
 
         padding-bottom: 20px;
+        text-align: justify;
+        margin-left: 20px;
+        margin-top: 20px;
+                  
+      }
+
+      .Top3{
+
+        border: 2px dashed black;
+        background-color: white;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        padding-left: 10px;
+        padding-right: 15px;
+        margin-right: 30px;
+        margin-left: 20px;
+        width: 950px;
+        height: 100px;
+                
       }
       .article02 {
 
-        padding-top: 30px;
-        display: flex
-        
-
-        
+        padding-bottom: 20px;
+        margin-right: 30px;
+        margin-left: 20px;
+        text-align: justify;
+        margin-top: 70px;
+           
       }
 
-      .article02title{
-        margin-bottom: 10px;
-
+      .title2 {
         
-        
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        text-align: justify;
+      
       }
 
-      img {
-        max-width: 100%;
-        height: auto;
+      .image1 {
+        
+        height: 150px;
+        border: 2px solid black;
+        padding-top: 10PX;
+        padding-bottom: 0px;
+        padding-left: 10PX;
+        padding-right: 10px;
+        width: auto;
+        margin-left: 20px;
+        margin-bottom: 20px;
         margin-right: 20px;
+        margin-top: 20px;
+        background-color: white;
         
       }
+      
       footer {
         color: white;
         background-color: rgb(207, 109, 155);
